@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> contact with us</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1> موقعنا الإلكتروني</h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html"> الرئيسية</a></li>
+                <li><a href="about.html"> عن الموقع </a></li>
+                <li><a href="contact.html"> تواصل معنا</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <form method="post">
+            <h2>تواصل معنا</h2>
+            <p>يرجى ملء النموذج التالي للاتصال بنا</p>
+            <div>
+                <label for="username"> username</label>
+                <input type="text" required placeholder="enter your full name">
+            </div>
+            <br>
+            <div>
+                <label for="email"> Email</label>
+                <input type="email" required placeholder="uhwgey@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="age"> your age</label>
+                <input type="number" required min="10" max="100">
+            </div>
+            <br>
+            <div>
+                <label for="connection-date"> prfrered connection date</label>
+                <input type="date">
+            </div>
+            <br>
+            <div>
+                <label for="checkboxes"> </label>
+                <input type="service" value="web design">
+            </div>
+            <br>
+            <div>
+                <label for="subject"> subject of message </label>
+                <select name="subject" id="subject">
+                    <option value="general">استفسار عام</option>
+                    <option value="support">دعم فنى </option>
+                    <option value="feedback">اقتراحات</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="message"> الرسالة</label>
+
+                <textarea rows="10" cols="50" placeholder="put your message here"> </textarea>
+            </div>
+            <br>
+            <button type="submit"> submit your message</button>
+    </main>
+    </form>
+    <footer>
+        <p>
+            all copywrites are saved
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
+<!--
+استفسار عام 
+دعم فنى 
+اقتراحات-->
